@@ -2,10 +2,10 @@
     "wallpaper": "https://bing.img.run/1920x1080.php",
     "spider": "https://weixine.net/spider.jar",
     "sites": [
-        { "key": "sn_json", "name": "💎 索尼蓝光 | 自动筛选", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        { "key": "ff_json", "name": "⚡ 非凡秒播 | 热度评分", "type": 1, "api": "https://cj.ffzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        { "key": "lz_json", "name": "🎬 量子高清 | 综合分类", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-        { "key": "wl_json", "name": "🌏 卧龙海外 | 马来直连", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 }
+        { "key": "wl_json", "name": "🌍 卧龙海外 | 筛选分类(首选)", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "lz_json", "name": "📺 量子高清 | 极速筛选", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "sn_json", "name": "💎 索尼蓝光 | 备用", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "ff_json", "name": "⚡ 非凡秒播 | 备用", "type": 1, "api": "https://cj.ffzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 }
     ],
     "parses": [
         { "name": "智能解析", "type": 3, "url": "Web" },

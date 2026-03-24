@@ -1,17 +1,17 @@
 {
     "wallpaper": "https://bing.img.run/1920x1080.php",
-    /* 强行改用饭太硬官方加速大脑，解决加载太久的问题 */
-    "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/spider.jar",
+    /* 采用饭太硬原版爬虫包，确保 6.1.9 完美兼容 */
+    "spider": "http://www.饭太硬.com/jar/custom_spider.jar",
     "lives": [
         { "name": "🌐 自动更新·国内(IPv6)", "type": 0, "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u", "playerType": 1 },
-        { "name": "📺 自动更新·全球", "type": 0, "url": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u", "playerType": 1 }
+        { "name": "📺 自动更新·全球(YueChan)", "type": 0, "url": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u", "playerType": 1 }
     ],
     "sites": [
-        /* --- 饭太硬核心主页逻辑，务必放在第一位 --- */
-        { "key": "豆瓣", "name": "🎬 豆瓣·热映(主页评分)", "type": 3, "api": "csp_Douban", "searchable": 0, "quickSearch": 0, "filterable": 1 },
-        { "key": "热荐", "name": "🔥 热门·推荐(聚合榜单)", "type": 3, "api": "csp_AppHot", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        /* --- 饭太硬原装主页组件（海报墙+分类+豆瓣评分） --- */
+        { "key": "豆瓣", "name": "🎬 豆瓣·热映(主页评分)", "type": 3, "api": "csp_Douban", "searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "http://www.饭太硬.com/json/douban.json" },
+        { "key": "热荐", "name": "🔥 热门·推荐(聚合榜单)", "type": 3, "api": "csp_AppHot", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "http://www.饭太硬.com/json/apphot.json" },
         
-        /* --- 你的 16 路 4K 采集站 --- */
+        /* --- 你的 16 路 4K 采集站（负责搜索和播放） --- */
         { "key": "sn_json", "name": "💎 索尼蓝光(4K)", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "lz_json", "name": "🎬 量子高清(4K)", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "hx_json", "name": "🌟 恒星资源(4K)", "type": 1, "api": "https://api.hxzy8.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },

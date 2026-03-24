@@ -1,7 +1,6 @@
 {
     "wallpaper": "https://bing.img.run/1920x1080.php",
-    /* 换用兼容性最强的通用爬虫 */
-    "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar",
+    "spider": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar",
     "lives": [
         {
             "name": "🌐 自动更新·国内(IPv6)",
@@ -17,9 +16,9 @@
         }
     ],
     "sites": [
-        /* --- 修正后的主页：必须带上正确的 ext 地址才能显示评分和分类 --- */
-        { "key": "豆瓣", "name": "🎬 豆瓣热映(主页评分)", "type": 3, "api": "csp_Douban", "searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/h宣/TVBox/main/douban.json" },
-        { "key": "热荐", "name": "🔥 热门推荐(聚合榜单)", "type": 3, "api": "csp_AppHot", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/h宣/TVBox/main/apphot.json" },
+        /* --- 首页：豆瓣评分与分类 --- */
+        { "key": "豆瓣", "name": "🎬 豆瓣热映(主页评分)", "type": 3, "api": "csp_Douban", "searchable": 0, "quickSearch": 0, "filterable": 1 },
+        { "key": "热荐", "name": "🔥 热门推荐(聚合榜单)", "type": 3, "api": "csp_AppHot", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "http://150.158.170.18:88/v/" },
         
         /* --- 16路高清采集站 --- */
         { "key": "sn_json", "name": "💎 索尼蓝光(4K强推)", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
@@ -46,7 +45,6 @@
         { "name": "🛡️ 万能解析", "type": 0, "url": "https://jx.zui.cm/?url=" }
     ],
     "rules": [
-        { "name": "去广告", "hosts": ["vip.lz", "hd.lz", "vip.ffzy", "hd.ffzy", "suonizy", "hxzy"], "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY", "#EXTINF.*?\\s+.*?adjump.*?\\.ts"] },
-        { "name": "时长", "hosts": ["*"], "regex": ["17.19", "19.63", "17.99", "14.45", "38.68"] }
+        { "name": "去广告", "hosts": ["vip.lz", "hd.lz", "vip.ffzy", "hd.ffzy", "suonizy", "hxzy"], "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY", "#EXTINF.*?\\s+.*?adjump.*?\\.ts"] }
     ]
 }

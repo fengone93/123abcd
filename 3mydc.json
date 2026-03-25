@@ -1,0 +1,24 @@
+{
+"spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/h宣/TVBox/main/spider.jar",
+"wallpaper": "https://bing.img.run/1920x1080.php",
+"sites": [
+{ "key": "lz_json", "name": "🎬 量子高清｜全量秒开", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1, "index": "https://cj.lziapi.com/api.php/provide/vod/at/json/" },
+{ "key": "ff_json", "name": "⚡ 非凡秒播｜起飞加载", "type": 1, "api": "https://cj.ffzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+{ "key": "bt_json", "name": "🦾 比特资源｜硬核更新", "type": 1, "api": "https://api.bitzy.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+{ "key": "wc_json", "name": "📝 文采资源｜分类精准", "type": 1, "api": "https://api.wencaizy.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+{ "key": "hhua_json", "name": "🌸 花花资源｜极速采集", "type": 1, "api": "https://www.huahuazy.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+{ "key": "rb_json", "name": "🔥 热播资源｜实时同步", "type": 1, "api": "https://rebozy.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+{ "key": "sn_json", "name": "💎 索尼蓝光｜画质巅峰", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+{ "key": "js_json", "name": "⚡ 极速资源｜秒级秒播", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+{ "key": "rn_json", "name": "🐂 红牛极速｜节点稳定", "type": 1, "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+{ "key": "wl_json", "name": "🌏 卧龙海外｜全球资源", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+{ "key": "bf_json", "name": "🌀 暴风老牌｜经典怀旧", "type": 1, "api": "https://bfzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+{ "key": "ik_json", "name": "🎥 iKUN资源｜画质优选", "type": 1, "api": "https://ikunzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+{ "key": "jy_json", "name": "🦅 金鹰资源｜高清采集", "type": 1, "api": "https://jyzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+{ "key": "hyzy_json", "name": "🐯 虎牙多线｜综艺同步", "type": 1, "api": "https://www.huyazy.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+{ "key": "88_json", "name": "🚀 88资源｜稳定输出", "type": 1, "api": "https://www.88zyw.net/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1 }
+],
+"parses": [
+{ "name": "极速解析", "type": 0, "url": "https://jx.json.icu/?url=" }
+]
+}

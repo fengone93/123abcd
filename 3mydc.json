@@ -1,58 +1,53 @@
 {
-    /* 核心站点：整合饭太硬解析引擎 + 16路全量采集 */
+    /* 核心爬虫：使用你提供的 GitHub 链接 */
+    "spider": "https://github.com/fengone93/123wc/raw/refs/heads/main/custom_spider.jar",
+
     "sites": [
-        /* --- 核心置顶：索尼 & 非凡 --- */
-        { "key": "sn_json", "name": "💎 索尼蓝光(主推)", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1, "filterable": 1, "categories": ["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","国产剧","欧美剧","韩剧","日剧","香港剧","台湾剧","泰剧","海外剧","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"] },
-        { "key": "ff_json", "name": "⚡ 非凡秒播", "type": 1, "api": "http://api.ffzyapi.com/api.php/provide/vod/at/json/", "searchable": 1, "quickSearch": 1 },
-        
-        /* --- 修复区：快车、天空、恒星 (2026最新接口) --- */
-        { "key": "kc_json", "name": "🏎️ 快车资源(修复)", "type": 1, "api": "https://caiji.kczyapi.com/api.php/provide/vod/at/json/", "searchable": 1 },
-        { "key": "tk_json", "name": "🌤️ 天空资源(修复)", "type": 1, "api": "https://api.tiankongapi.com/api.php/provide/vod/at/json/", "searchable": 1 },
-        { "key": "hx_json", "name": "🌟 恒星资源(修复)", "type": 1, "api": "https://api.hxzy8.com/api.php/provide/vod/at/json/", "searchable": 1 },
-        
-        /* --- 其余 11 路全量补全 --- */
-        { "key": "lz_json", "name": "🎬 量子高清(4K)", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/at/json/", "searchable": 1 },
-        { "key": "uk_json", "name": "🎥 U酷资源(4K)", "type": 1, "api": "https://api.ukuapi.com/api.php/provide/vod/at/json/", "searchable": 1 },
-        { "key": "wl_json", "name": "🌏 卧龙海外", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/", "searchable": 1 },
-        { "key": "xl_json", "name": "📺 新浪资源", "type": 1, "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/json/", "searchable": 1 },
-        { "key": "js_json", "name": "🚀 极速资源", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/at/json/", "searchable": 1 },
-        { "key": "bd_json", "name": "🎯 百度资源", "type": 1, "api": "https://api.apibdzy.com/api.php/provide/vod/at/json/", "searchable": 1 },
-        { "key": "jy_json", "name": "🦅 金鹰资源", "type": 1, "api": "https://jyzyapi.com/api.php/provide/vod/at/json/", "searchable": 1 },
-        { "key": "bf_json", "name": "🌀 暴风资源", "type": 1, "api": "https://bfzyapi.com/api.php/provide/vod/at/json/", "searchable": 1 },
-        { "key": "ik_json", "name": "🎞️ iKUN资源", "type": 1, "api": "https://ikunzyapi.com/api.php/provide/vod/at/json/", "searchable": 1 },
-        { "key": "rn_json", "name": "🐂 红牛极速", "type": 1, "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/json/", "searchable": 1 },
-        { "key": "hy_json", "name": "🐯 虎牙资源", "type": 1, "api": "https://www.huyazy.com/api.php/provide/vod/at/json/", "searchable": 1 }
+        /* 1. 豆瓣主页：必须排在第一位，type必须为3 */
+        {
+            "key": "豆瓣",
+            "name": "🎬 豆瓣·热播推荐",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        /* 2. 你提供的 16 路原始站点 (保留完整分类与参数) */
+        { "key": "sn_json", "name": "💎 索尼蓝光(4K强推)", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1, "categories": ["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","国产剧","欧美剧","韩剧","日剧","香港剧","台湾剧","泰剧","海外剧","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"] },
+        { "key": "lz_json", "name": "🎬 量子高清(4K/极速)", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "uk_json", "name": "🎥 U酷资源(高码率4K)", "type": 1, "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "wl_json", "name": "🌏 卧龙海外(海外专线)", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "ff_json", "name": "⚡ 非凡秒播", "type": 1, "api": "http://api.ffzyapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "xl_json", "name": "📺 新浪资源", "type": 1, "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "js_json", "name": "🚀 极速资源", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "bd_json", "name": "🎯 百度资源", "type": 1, "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "jy_json", "name": "🦅 金鹰资源", "type": 1, "api": "https://jyzyapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "bf_json", "name": "🌀 暴风老牌", "type": 1, "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "ik_json", "name": "🎞️ iKUN资源", "type": 1, "api": "https://ikunzyapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "rn_json", "name": "🐂 红牛极速", "type": 1, "api": "https://www.hongniuzy2.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "hy_json", "name": "🐯 虎牙资源", "type": 1, "api": "https://www.huyazy.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "1080_json", "name": "🌟 1080资源", "type": 1, "api": "https://api.yzzy-api.com/inc/apijson.php?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "wj_json", "name": "♾️ 无尽资源", "type": 1, "api": "https://api.wujinapi.me/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "uk1_json", "name": "🌸 1U酷资源", "type": 1, "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1 }
     ],
-    "lives": [], /* 已按要求清空直播 */
-    
-    /* 整合饭太硬解析引擎：提升大马观看中国 4K 资源的成功率 */
+
+    /* 💡 针对遥控器失灵的补救：强制写入分类筛选规则 */
+    "filters": {
+        "sn_json": [{"key":"year","name":"年份","value":[{"n":"全部","v":""},{"n":"2026","v":"2026"},{"n":"2025","v":"2025"},{"n":"2024","v":"2024"},{"n":"2023","v":"2023"}]},{"key":"area","name":"地区","value":[{"n":"全部","v":""},{"n":"内地","v":"内地"},{"n":"香港","v":"香港"},{"n":"台湾","v":"台湾"},{"n":"美国","v":"美国"},{"n":"泰国","v":"泰国"}]}],
+        "lz_json": [{"key":"year","name":"年份","value":[{"n":"全部","v":""},{"n":"2026","v":"2026"},{"n":"2025","v":"2025"},{"n":"2024","v":"2024"}]}],
+        "ff_json": [{"key":"year","name":"年份","value":[{"n":"全部","v":""},{"n":"2026","v":"2026"},{"n":"2025","v":"2025"},{"n":"2024","v":"2024"}]}]
+    },
+
     "parses": [
-        { "name": "💡 饭总·聚合解析", "type": 3, "url": "Web" },
-        { "name": "⚡ 饭总·并发云解析", "type": 2, "url": "https://jx.yydsys.top/?url=" },
-        { "name": "🛡️ 稳定直连", "type": 0, "url": "https://jx.zui.cm/?url=" }
+        { "name": "💡 智能聚合解析", "type": 3, "url": "Web" },
+        { "name": "🦐 虾米多线", "type": 0, "url": "https://jx.xmflv.com/?url=" },
+        { "name": "🔥 热播解析", "type": 0, "url": "https://jx.yparse.com/index.php?url=" },
+        { "name": "🛡️ 万能解析", "type": 0, "url": "https://jx.zui.cm/?url=" }
     ],
-    
-    /* 整合饭太硬播放优化参数 (IJK硬解) */
-    "ijk": [
-        { "group": "硬解码", "options": [
-            { "category": 4, "name": "opensles", "value": "0" },
-            { "category": 4, "name": "overlay-format", "value": "842225234" },
-            { "category": 4, "name": "framedrop", "value": "1" },
-            { "category": 4, "name": "soundtouch", "value": "1" },
-            { "category": 4, "name": "start-on-prepared", "value": "1" },
-            { "category": 1, "name": "http-detect-range-support", "value": "0" },
-            { "category": 1, "name": "fflags", "value": "fastseek" },
-            { "category": 2, "name": "skip_loop_filter", "value": "48" },
-            { "category": 4, "name": "reconnect", "value": "1" },
-            { "category": 4, "name": "max-buffer-size", "value": "5242880" },
-            { "category": 4, "name": "mediacodec", "value": "1" },
-            { "category": 4, "name": "mediacodec-auto-rotate", "value": "1" },
-            { "category": 4, "name": "mediacodec-handle-resolution-change", "value": "1" },
-            { "category": 4, "name": "mediacodec-hevc", "value": "1" }
-        ]}
-    ],
-    
+
     "rules": [
-        { "name": "去广告", "hosts": ["vip.lz", "hd.lz", "suonizy", "hxzy", "ffzy", "kczy", "tkzy"], "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY"] }
+        { "name": "去广告切片", "hosts": ["vip.lz", "hd.lz", "vip.ffzy", "hd.ffzy", "suonizy", "hxzy", "kczy", "tkzy", "ukuzy"], "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY", "#EXTINF.*?\\s+.*?adjump.*?\\.ts"] },
+        { "name": "通用时长过滤", "hosts": ["*"], "regex": ["17.19", "19.63", "17.99", "14.45", "38.68"] }
     ]
 }

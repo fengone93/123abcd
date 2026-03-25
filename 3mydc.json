@@ -4,7 +4,7 @@
       "key": "soni",
       "name": "sonia",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://suoniapi.com/api.php/provide/vod/at/json/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13,7 +13,7 @@
       "key": "ffan",
       "name": "ffana",
       "type": 1,
-      "api": "http://api.ffzyapi.com/api.php/provide/vod/?ac=list",
+      "api": "http://api.ffzyapi.com/api.php/provide/vod/at/json/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1

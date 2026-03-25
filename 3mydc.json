@@ -3,7 +3,7 @@
     "sites": [
         { 
             "key": "sn_json", 
-            "name": "sini", 
+            "name": "💎 索尼蓝光(优先/搜索)", 
             "type": 1, 
             "api": "https://suoniapi.com/api.php/provide/vod/at/json/", 
             "searchable": 1, "quickSearch": 1, "filterable": 1,
@@ -11,7 +11,7 @@
         },
         { 
             "key": "ff_json", 
-            "name": " fei凡秒播", 
+            "name": "⚡ 非凡秒播", 
             "type": 1, 
             "api": "http://api.ffzyapi.com/api.php/provide/vod/at/json/", 
             "searchable": 1, "quickSearch": 1, "filterable": 1,

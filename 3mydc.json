@@ -1,39 +1,19 @@
 {
-  "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/lib/spider.jar",
   "sites": [
     {
-      "key": "lz_tv_fix",
-      "name": "🎬 量子高清 | 电视专用版",
+      "key": "sn_xml",
+      "name": "索尼资源 (XML)",
       "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://suoniapi.com/api.php/provide /vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      /* 重点 1：电视端必须列出 flag，否则软件不会调用下方的解析器 */
-      "flag": ["lzm3u8", "qzm3u8", "ffm3u8", "snm3u8", "dbm3u8"],
-      /* 重点 2：直接在站内绑定嗅探，跳过全局解析，防止秒跳失败 */
-      "playUrl": "https://jx.xmflv.com/?url=",
-      /* 重点 3：强制使用 IJK 内核，这是电视端兼容加密流最稳的内核 */
-      "playerType": 1,
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-      "class": [
-        {"type_id": 1, "type_name": "电影"},
-        {"type_id": 2, "type_name": "连续剧"},
-        {"type_id": 3, "type_name": "综艺"},
-        {"type_id": 4, "type_name": "动漫"}
+      "categories": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫"
       ]
-    }
-  ],
-  "parses": [
-    /* 重点 4：电视端首选 Web 聚合解析 */
-    { "name": "💡 聚合解析", "type": 3, "url": "Web" },
-    { "name": "🚀 极速解析", "type": 0, "url": "https://jx.jsonplayer.com/player/?url=" }
-  ],
-  "rules": [
-    { 
-      "name": "量子去广告", 
-      "hosts": ["vip.lz", "hd.lz"], 
-      "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY"] 
     }
   ]
 }

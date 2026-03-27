@@ -5,77 +5,33 @@
   "sites": [
     {
       "key": "lz_json_selected",
-      "name": "🎬 量子高清 | 甄选旗舰",
+      "name": "🎬 量子高清 | 甄1选旗舰",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      /* 重点：按照你的习惯，强制锁定这四大分类名 */
-      "categories": [
-        "电影",
-        "连续剧",
-        "综艺",
-        "动漫"
+      /* 这里的数字是量子源真实的分类ID，后面是你想显示的名字 */
+      "categories": ["电影", "连续剧", "综艺", "动漫"],
+      "class": [
+        {"type_id": 1, "type_name": "电影"},
+        {"type_id": 2, "type_name": "连续剧"},
+        {"type_id": 3, "type_name": "综艺"},
+        {"type_id": 4, "type_name": "动漫"}
       ],
       "filter": {
-        "1": [
-          {
-            "key": "year",
-            "name": "年份",
-            "value": [
-              {"n": "全部", "v": ""},
-              {"n": "2026", "v": "2026"},
-              {"n": "2025", "v": "2025"},
-              {"n": "2024", "v": "2024"},
-              {"n": "2023", "v": "2023"},
-              {"n": "2022", "v": "2022"},
-              {"n": "2021", "v": "2021"}
-            ]
-          },
-          {
-            "key": "area",
-            "name": "地区",
-            "value": [
-              {"n": "全部", "v": ""},
-              {"n": "中国大陆", "v": "中国大陆"},
-              {"n": "中国香港", "v": "中国香港"},
-              {"n": "美国", "v": "美国"},
-              {"n": "韩国", "v": "韩国"},
-              {"n": "日本", "v": "日本"}
-            ]
-          }
-        ],
-        "2": [
-          {
-            "key": "year",
-            "name": "年份",
-            "value": [
-              {"n": "全部", "v": ""},
-              {"n": "2026", "v": "2026"},
-              {"n": "2025", "v": "2025"},
-              {"n": "2024", "v": "2024"},
-              {"n": "2023", "v": "2023"}
-            ]
-          }
-        ]
+        "1": [{"key": "year", "name": "年份", "value": [{"n": "2026", "v": "2026"}, {"n": "2025", "v": "2025"}, {"n": "2024", "v": "2024"}, {"n": "2023", "v": "2023"}]}],
+        "2": [{"key": "year", "name": "年份", "value": [{"n": "2026", "v": "2026"}, {"n": "2025", "v": "2025"}, {"n": "2024", "v": "2024"}]}],
+        "3": [{"key": "year", "name": "年份", "value": [{"n": "2026", "v": "2026"}, {"n": "2025", "v": "2025"}]}],
+        "4": [{"key": "year", "name": "年份", "value": [{"n": "2026", "v": "2026"}, {"n": "2025", "v": "2025"}]}]
       }
     }
   ],
   "parses": [
     { "name": "💡 智能聚合解析", "type": 3, "url": "Web" },
-    { "name": "🦐 虾米多线", "type": 0, "url": "https://jx.xmflv.com/?url=" },
-    { "name": "🔥 热播解析", "type": 0, "url": "https://jx.yparse.com/index.php?url=" },
-    { "name": "🛡️ 万能解析", "type": 0, "url": "https://jx.zui.cm/?url=" }
+    { "name": "🦐 虾米多线", "type": 0, "url": "https://jx.xmflv.com/?url=" }
   ],
   "rules": [
-    { 
-      "name": "量子去广告", 
-      "hosts": ["vip.lz", "hd.lz"], 
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY", 
-        "#EXTINF.*?\\s+.*?adjump.*?\\.ts"
-      ] 
-    }
+    { "name": "去广告", "hosts": ["vip.lz", "hd.lz"], "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY"] }
   ]
 }

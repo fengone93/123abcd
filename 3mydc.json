@@ -32,7 +32,7 @@
       "name": "🅿弹幕┃刷新自动启动",
       "type": 3,
       "api": "csp_GoConfigAmnsr",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/custom_spider.jar"
+      "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"
     },
     {
       "key": "ConfigCenter",
@@ -163,7 +163,7 @@
       "filterable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/custom_spider.jar"
+      "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"
     },
     {
       "key": "csp_Jianpian",
@@ -225,16 +225,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/json/农民影视.json"
-    },
-    {
-      "key": "欧乐",
-      "name": "🎥欧乐影院",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/json/olevod.json"
     },
     {
       "key": "永乐",
@@ -404,7 +394,7 @@
       "filterable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/custom_spider.jar"
+      "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"
     },
     {
       "name": "🎦豪堪短剧",
@@ -416,7 +406,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/custom_spider.jar"
+      "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"
     },
     {
       "name": "📺盒马短剧",
@@ -428,7 +418,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/custom_spider.jar"
+      "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"
     },
     {
       "name": "🎞️拜拜短剧",
@@ -440,7 +430,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/custom_spider.jar"
+      "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"
     },
     {
       "name": "🐠锦鲤短剧",
@@ -452,7 +442,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/custom_spider.jar"
+      "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"
     },
     {
       "name": "🐱喵喵短剧",
@@ -464,7 +454,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/custom_spider.jar"
+      "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"
     },
     {
       "name": "⭐星星短剧",
@@ -476,7 +466,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/custom_spider.jar"
+      "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"
     },
     {
       "name": "🎂岁岁短剧",
@@ -488,7 +478,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/custom_spider.jar"
+      "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"
     },
     {
       "name": "🍩甜圈短剧",
@@ -500,7 +490,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/custom_spider.jar"
+      "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"
     },
     {
       "key": "豆瓣",
@@ -848,8 +838,8 @@
       "key": "斗鱼",
       "name": "🐟斗鱼直播",
       "type": 3,
-      "api": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/js/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/js/斗鱼直播.js",
+      "api": "https://git.yylx.win/raw.githubusercontent.com/yoursmile66/TVBox/main/js/lib/drpy2.min.js",
+      "ext": "https://git.yylx.win/raw.githubusercontent.com/yoursmile66/TVBox/main/js/斗鱼直播.js",
       "style": {
         "type": "rect",
         "ratio": 1.755

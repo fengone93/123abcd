@@ -941,7 +941,7 @@
     },
     {
       "name": "量子",
-      "hosts": ["vip.lz", "hd.lz", ".cdnlz"],
+      "hosts": ["vip.lz", "hd.lz", ".cdnlz", "yzzy1.play"],
       "regex": [
         "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
         "#EXTINF.*?\\s+.*?08646.*?\\.ts",
@@ -949,12 +949,15 @@
         "#EXTINF.*?\\s+.*?48234.*?\\.ts",
         "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF.*?7\\.067,[\\s\\S]*?#EXT-X-DISCONTINUITY",
         "17.19",
-        "19.63"
+        "19.63",
+        "18.5333",
+        "19.52",
+        "18.6666"
       ]
     },
     {
       "name": "非凡",
-      "hosts": ["vip.ffzy", "hd.ffzy", "super.ffzy", "cachem3u8.2s0"],
+      "hosts": ["vip.ffzy", "hd.ffzy", "super.ffzy", "cachem3u8.2s0", "ffzy"],
       "regex": [
         "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
         "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
@@ -962,7 +965,12 @@
         "#EXTINF.*?\\s+.*?6d7b(077).*?\\.ts",
         "#EXTINF.*?\\s+.*?6718a(403).*?\\.ts",
         "17.99",
-        "14.45"
+        "14.45",
+        "25.0666",
+        "25.08",
+        "20.52",
+        "25.1",
+        "25.1999"
       ]
     },
     {
@@ -971,7 +979,11 @@
       "regex": [
         "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1\\.000000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
         "#EXTINF.*?\\s+.*?p1ayer.*?\\.ts",
-        "#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts"
+        "#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts",
+        "15.1666",
+        "15.2666",
+        "16.3333",
+        "15.266667"
       ]
     },
     {
@@ -1003,6 +1015,22 @@
       "name": "1080zyk",
       "hosts": ["high24-playback", "high20-playback", "yzzy.play", "yzzy-dy"],
       "regex": ["16.63", "17.66"]
+    },
+    {
+      "name": "yqk",
+      "hosts": ["yqk"],
+      "regex": [
+        "18.4",
+        "15.1666",
+        "#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-OUT((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-IN"
+      ]
+    },
+    {
+      "name": "xx",
+      "hosts": ["aws.ulivetv.net"],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
     }
   ],
   "doh": [

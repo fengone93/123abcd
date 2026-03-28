@@ -227,6 +227,16 @@
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/json/农民影视.json"
     },
     {
+      "key": "欧乐",
+      "name": "🎥欧乐影院",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/json/olevod.json"
+    },
+    {
       "key": "永乐",
       "name": "🍰永乐",
       "type": 3,

@@ -4,20 +4,12 @@
   "logo": "",
   "sites": [
     {
-      "key": "Tg|豆瓣",
-      "name": "🔍Tg豆瓣┃本接口免费-🈲贩卖",
-      "type": 3,
-      "api": "csp_TgYunDouBanPan",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "siteUrl": "http://127.0.0.1:9999",
-        "count": 4,
-        "channelUsername": "+P4IU1QbK4ChlNTYx,+h10ulzfxiQZiYTdi,+cpJ_dIx_hlYxMWQx,+Jc37JCr1diEzNDMx,bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuake_movie,Quark_Movies,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,alyp_1,BaiduCloudDisk",
-        "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/json/peizhi.json",
-        "filter": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/json/douban.json"
-      }
+            "key": "豆瓣",
+            "name": "豆瓣｜首页",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0,
+            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/spider.jar"
     },
     {
       "key": "原创",

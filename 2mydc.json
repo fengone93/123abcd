@@ -4,14 +4,6 @@
   "logo": "",
   "sites": [
     {
-      "key": "豆瓣",
-      "name": "豆瓣｜首页",
-      "type": 3,
-      "api": "csp_Douban",
-      "timeout": 10,
-      "searchable": 0
-    },
-    {
       "key": "原创",
       "name": "☀原创┃不卡",
       "type": 3,

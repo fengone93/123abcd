@@ -5,7 +5,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "豆瓣0.1",
+      "name": "豆瓣0.2",
       "type": 3,
       "api": "csp_Douban",
       "indexs": 1,
@@ -45,7 +45,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
+      "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod",
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "奴娜",
@@ -55,7 +56,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.nntv.in/api.php/v1.vod"
+      "ext": "https://www.nntv.in/api.php/v1.vod",
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "秒看",
@@ -105,7 +107,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://111.170.58.23:802/api.php/app/"
+      "ext": "http://111.170.58.23:802/api.php/app/",
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "坚果影视",
@@ -137,7 +140,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://saohuody.com"
+      "ext": "https://saohuody.com",
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "超前",
@@ -148,7 +152,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2,
-      "ext": "http://chaoqianys.top:91/api.php/app/"
+      "ext": "http://chaoqianys.top:91/api.php/app/",
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "瓜子影视",
@@ -186,7 +191,8 @@
       "api": "csp_Qiyou",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "糯米",
@@ -218,14 +224,16 @@
       "name": "🦁灵虎",
       "type": 3,
       "api": "csp_Xdai",
-      "ext": "7lj763gg402i7942532384j7lk0ljji7ghl19313j490266k0g1855k7k103474j1i9349h68842h3h016399jj1g6gk4jlhh367714gk5g2jhji12g819j33jlj1l15k6g492l0"
+      "ext": "7lj763gg402i7942532384j7lk0ljji7ghl19313j490266k0g1855k7k103474j1i9349h68842h3h016399jj1g6gk4jlhh367714gk5g2jhji12g819j33jlj1l15k6g492l0",
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "王子",
       "name": "🍟王子",
       "type": 3,
       "api": "csp_Xdai",
-      "ext": "7lj763gg402i7942503g9g9jk909jji3g0li9j088291253h4k141gggkk41435h43924kg6ik48i0856j01k882glkh4kllg538704jl5k4j1gl27j321g03lll"
+      "ext": "7lj763gg402i7942503g9g9jk909jji3g0li9j088291253h4k141gggkk41435h43924kg6ik48i0856j01k882glkh4kllg538704jl5k4j1gl27j321g03lll",
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "农民",
@@ -235,7 +243,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/json/农民影视.json"
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/json/农民影视.json",
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "永夜",
@@ -243,7 +252,8 @@
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 2,
-      "ext": "7lj763gg0939790i413gjh9kk011jijiggll990k9li73l224k770ik0j10l502j2j9l798lhj778hh33g018h94k5j400kij3567j7gji97kkk4118421g03lll"
+      "ext": "7lj763gg0939790i413gjh9kk011jijiggll990k9li73l224k770ik0j10l502j2j9l798lhj778hh33g018h94k5j400kij3567j7gji97kkk4118421g03lll",
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "番薯",
@@ -251,7 +261,8 @@
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 2,
-      "ext": "7lj763gg402i79425l2l9j9jh14i9ijil0h1jk58ih8633354h0l18lil40h755g029i0ghhil4gh89i133hk9i9l1k604i9g4797k09k8k5j3j73kgj1hg725gg575ig9g790"
+      "ext": "7lj763gg402i79425l2l9j9jh14i9ijil0h1jk58ih8633354h0l18lil40h755g029i0ghhil4gh89i133hk9i9l1k604i9g4797k09k8k5j3j73kgj1hg725gg575ig9g790",
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "天天",
@@ -261,7 +272,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "7lj763gg0939791h1l3888jig44gi291li"
+      "ext": "7lj763gg0939791h1l3888jig44gi291li",
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "金牌",
@@ -271,7 +283,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"
+      "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l",
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "csp_Dygang",
@@ -280,7 +293,8 @@
       "api": "csp_Dygang",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "巧技二",
@@ -290,7 +304,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"
+      "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9",
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "bf_json",
@@ -299,7 +314,8 @@
       "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "bd_json",
@@ -308,7 +324,8 @@
       "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "hy_json",
@@ -317,7 +334,8 @@
       "api": "https://www.huyazy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "热播",
@@ -338,7 +356,8 @@
       "type": 3,
       "api": "csp_qiao2",
       "playerType": 2,
-      "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312hk935886ig2l05g9"
+      "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312hk935886ig2l05g9",
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "csp_Jianpian",
@@ -348,7 +367,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/json/jianpian.json"
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/fengone93/123abc/main/json/jianpian.json",
+      "jar": "./jar/Yoursmile.jar"
     },
     {
       "key": "lz_json",
@@ -357,7 +377,8 @@
       "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "jar": "./jar/Yoursmile.jar"
     }
   ],
   "parses": [

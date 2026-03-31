@@ -11,7 +11,7 @@
       "indexs": 1,
       "searchable": 0,
       "changeable": 1,
-      "ext": "./json/douban.json"
+      "ext": "https://raw.githubusercontent.com/fengone93/123abc/refs/heads/main/json/douban.json"
     }
   ],
   "parses": [

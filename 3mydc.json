@@ -1,11 +1,11 @@
 {
-  "spider": "./jar/spider.jar",
+  "spider": "",
   "wallpaper": "",
   "logo": "",
   "sites": [
     {
       "key": "豆瓣",
-      "name": "豆瓣0.4",
+      "name": "豆瓣0.5",
       "type": 3,
       "api": "csp_Douban",
       "indexs": 1,

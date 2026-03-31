@@ -11,8 +11,7 @@
       "api": "csp_DouDouGuard",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
+      "filterable": 1
     },
     {
       "key": "Tg|豆瓣",
@@ -54,8 +53,7 @@
         "from": "4k|auto",
         "siteUrl": "https://www.wogg.com/",
         "danMu": "弹"
-      },
-      "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
+      }
     },
     {
       "key": "原创",
@@ -66,8 +64,7 @@
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
+      "changeable": 1
     },
     {
       "key": "糯米",
@@ -77,8 +74,7 @@
       "timeout": 10,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
+      "changeable": 1
     },
     {
       "key": "文采",
@@ -89,8 +85,7 @@
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
+      "changeable": 1
     },
     {
       "key": "厂长",
@@ -101,8 +96,7 @@
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
+      "changeable": 1
     },
     {
       "key": "比特",
@@ -112,8 +106,7 @@
       "timeout": 10,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
+      "changeable": 1
     },
     {
       "key": "热播",
@@ -125,8 +118,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "uqGL1bNENExT7/hGxpSE5qU=",
-      "jar": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
+      "ext": "uqGL1bNENExT7/hGxpSE5qU="
     },
     // ===================== 3. APP 聚合类 =====================
     {
@@ -134,7 +126,6 @@
       "name": "云播｜APP",
       "type": 3,
       "api": "csp_AppFox",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/spider.jar",
       "ext": {
         "host": "http://app.hktvyb.cc"
       }
@@ -144,22 +135,19 @@
       "name": "云播｜影视",
       "type": 3,
       "api": "csp_Tvyb",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/spider.jar",
       "ext": "http://www.tvyb03.com"
     },
     {
       "key": "坚果影视",
       "name": "坚果｜APP",
       "type": 3,
-      "api": "csp_AppJg",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/spider.jar"
+      "api": "csp_AppJg"
     },
     {
       "key": "秒看",
       "name": "秒看｜APP",
       "type": 3,
       "api": "csp_AppGet",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/spider.jar",
       "searchable": 1,
       "changeable": 1,
       "ext": {
@@ -174,7 +162,6 @@
       "name": "黑猫｜APP",
       "type": 3,
       "api": "csp_AppGet",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/spider.jar",
       "searchable": 1,
       "changeable": 1,
       "ext": {
@@ -229,7 +216,6 @@
       "name": "星河｜APP",
       "type": 3,
       "api": "csp_AppQi",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/spider.jar",
       "searchable": 1,
       "changeable": 1,
       "ext": {
@@ -245,7 +231,6 @@
       "name": "段友｜APP",
       "type": 3,
       "api": "csp_AppGet",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/spider.jar",
       "searchable": 1,
       "changeable": 1,
       "ext": {
@@ -259,7 +244,6 @@
       "name": "星空｜APP",
       "type": 3,
       "api": "csp_AppGet",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/spider.jar",
       "searchable": 1,
       "changeable": 1,
       "ext": {
@@ -272,8 +256,7 @@
       "key": "瓜子影视",
       "name": "瓜子｜影视",
       "type": 3,
-      "api": "csp_Gz360",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/spider.jar"
+      "api": "csp_Gz360"
     },
     // ===================== 4. 第三方自定义规则站 =====================
     {
@@ -476,8 +459,7 @@
       "searchable": 1,
       "filterable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/custom_spider.jar"
+      "changeable": 1
     },
     {
       "key": "csp_New6v",
@@ -677,8 +659,7 @@
       "searchable": 1,
       "filterable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/custom_spider.jar"
+      "changeable": 1
     },
     {
       "key": "豪堪短剧",
@@ -689,8 +670,7 @@
       "filterable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/custom_spider.jar"
+      "genre": "shortdrama"
     },
     {
       "key": "盒马短剧",
@@ -701,8 +681,7 @@
       "filterable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/custom_spider.jar"
+      "genre": "shortdrama"
     },
     {
       "key": "拜拜短剧",
@@ -713,8 +692,7 @@
       "filterable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/custom_spider.jar"
+      "genre": "shortdrama"
     },
     {
       "key": "锦鲤短剧",
@@ -725,8 +703,7 @@
       "filterable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/custom_spider.jar"
+      "genre": "shortdrama"
     },
     {
       "key": "喵喵短剧",
@@ -737,8 +714,7 @@
       "filterable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/custom_spider.jar"
+      "genre": "shortdrama"
     },
     {
       "key": "星星短剧",
@@ -749,8 +725,7 @@
       "filterable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/custom_spider.jar"
+      "genre": "shortdrama"
     },
     {
       "key": "岁岁短剧",
@@ -761,8 +736,7 @@
       "filterable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/custom_spider.jar"
+      "genre": "shortdrama"
     },
     {
       "key": "甜圈短剧",
@@ -773,8 +747,7 @@
       "filterable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "genre": "shortdrama",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/custom_spider.jar"
+      "genre": "shortdrama"
     },
     {
       "key": "csp_Kugou",

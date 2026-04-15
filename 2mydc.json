@@ -24,18 +24,6 @@
       "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
-      "key": "MTV1",
-      "name": "🎙️易听音乐┃带歌词",
-      "type": 3,
-      "api": "csp_MusicGuard",
-      "style": { "type": "rect", "ratio": 1 },
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
-    },
-    {
       "key": "云播",
       "name": "⛅️云播┃无搜索",
       "type": 3,

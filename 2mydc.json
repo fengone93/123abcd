@@ -1,26 +1,14 @@
 {
   "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b",
-  "spider": "https://img2.gelonghui.com/library/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png;md5;9c8e45f60d3d413d8b140ec21811deb0",
   "wallpaper": "",
   "sites": [
-     {
-      "key": "点我切源",
-      "name": "主人~欢迎回家132~",
-      "type": 3,
-      "api": "csp_DouDouGuard",
-      "indexs": 1,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
-    },
     {
       "key": "行动",
       "name": "😌┃行动┃APP",
       "type": 3,
       "api": "csp_AppGet",
       "ext": "http://165.99.42.137:5432|1234567890987654",
-      "spider": "https://img2.gelonghui.com/library/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png;md5;9c8e45f60d3d413d8b140ec21811deb0"
+      "jar": "https://img2.gelonghui.com/library/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png;md5;9c8e45f60d3d413d8b140ec21811deb0"
     },
     {
       "key": "猫抓",
@@ -28,7 +16,7 @@
       "type": 3,
       "api": "csp_AppGet",
       "ext": "https://app.95112475.xyz|5a9w6x58dsq6z3a6",
-      "spider": "https://img2.gelonghui.com/library/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png;md5;9c8e45f60d3d413d8b140ec21811deb0"
+      "jar": "https://img2.gelonghui.com/library/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png;md5;9c8e45f60d3d413d8b140ec21811deb0"
     },
     {
       "key": "永永",
@@ -36,14 +24,14 @@
       "type": 3,
       "api": "csp_AppGet",
       "ext": "https://bind.315999.xyz/89.txt|#getapp@TMD@2025|120",
-      "spider": "https://img2.gelonghui.com/library/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png;md5;9c8e45f60d3d413d8b140ec21811deb0"
+      "jar": "https://img2.gelonghui.com/library/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png;md5;9c8e45f60d3d413d8b140ec21811deb0"
     },
     {
       "key": "金牌",
       "name": "🥇┃金牌┃影视",
       "type": 3,
       "api": "csp_Jpys",
-      "spider": "https://img2.gelonghui.com/library/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png;md5;9c8e45f60d3d413d8b140ec21811deb0"
+      "jar": "https://img2.gelonghui.com/library/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png;md5;9c8e45f60d3d413d8b140ec21811deb0"
     },
     {
       "key": "潮流",
@@ -51,7 +39,18 @@
       "type": 3,
       "api": "csp_AppRJ",
       "ext": "http://v.rbotv.cn",
-      "spider": "https://img2.gelonghui.com/library/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png;md5;9c8e45f60d3d413d8b140ec21811deb0"
+      "jar": "https://img2.gelonghui.com/library/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png;md5;9c8e45f60d3d413d8b140ec21811deb0"
+    },
+    {
+      "key": "点我切源",
+      "name": "主人~欢迎回家1~",
+      "type": 3,
+      "api": "csp_DouDouGuard",
+      "indexs": 1,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "YGP",
@@ -61,7 +60,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "云播",
@@ -72,7 +71,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CKrShL75AiGhjhdkfX0cfnI/kIpThjDhEZ0lc8r7irE4mRMelQz4llfmVMCtjIFNIHP1T3XqwSmYZd34DfAtnkbgrpiMBiYW36CCI5rTkC3Rtg1wQQjazUZyVHx4Zz5bWbmPv4G8q7PfHWYStVeDannVT2lmLzKbGEDahyxvLhNZRjXO5rPlruB0ydDcR/e/g5nx8N3JhG0oucfv6xVDl0XxYy0K2bY3plgqx32kfnS63xa8sQDbGlYoPtdHQCi2cAvEOaqMb5a6r2D3yvcLXYLjk37CJgQObzK0bCggZPm3B3YenAuunxl5OQmXrzLHjys6I2isL5AwTS2YAjD/R3f4FYWBp+4RdwMBAChatxjEHcaFhCUb0nfTgYKQ4a1pZ4j6+d4YHa0GaMYHO5NZQ0tDRZfAZPcfYaWLSW8iIUx6G2e0JnI6bLAN1TR0AVer8lxfU0zAzAODbKVrt8Oafq0IQ6MeGFcFRGMu4QWrzaublQ==",
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "立播",
@@ -84,7 +83,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": { "Cloud-drive": "tvfan/Cloud-drive.txt" },
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "奶酪",
@@ -95,7 +94,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "rfOIzPkSUkANv6AT2prC8en3+TzKx9TnlT8vaY37HhtYfAQe6C5xqrVuJPhQwYV6r3eRdMBGm3Qm6Th+BushR86B6KqJGXDsHazHw7alBG/7zUxkN1tK/NypRxnpBNoeUtpw4jcCGhytI75yO4g4zG6SOPA0RSwhksM0IF2friAkrHCWoW3v+0mdw6sjz4t4XB1Df7yL/R5cfaA/5LQYq3I8OkvMrJMU9Q1P7JXwx7NSF2zTyH/ANVmZ4u5m567DW1KVG7OuQjXPjZiOXTYk0+wjpfBRTf19yIq6q/C76k2Fs80joAMPw0ueDR+QHxtuDcTom2rmHkI1Fonkzi6BotbpUcbSi4PiIgmfdbvVwhG6Z+i4nvt+IYa48l5aLA7PLgDiERpuOs31aHaXlgFswT87XyTb8QaF4CuzKWJuXptwNTjvXAS9KHdxH49Ay+hfBAB2bCvUf4CMoldF2wZUv0mI2qY966erFpOFg+FOc7t88EUH8j8ACXQtHJiKC9RQ+SaLIF0=",
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "厂长",
@@ -107,7 +106,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "文采",
@@ -119,7 +118,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "原创",
@@ -131,7 +130,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "比特",
@@ -142,7 +141,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "糯米",
@@ -153,7 +152,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "热播",
@@ -166,7 +165,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "uqGL1bNENExT7/hGxpSE5qU=",
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "剧圈",
@@ -178,7 +177,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p",
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "光影",
@@ -190,7 +189,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOX1voDIQhH8epBwtCFsub18Wmenoi4l29kKsy7X0oRJRBVvSwnsuM5MO9ZiIJs6T6MfJNEk2ptvW4yXL42Edzeou/SHng=",
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "视界",
@@ -202,7 +201,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOX1voDIQhH8epBwpmIsuS1pDrb3t3j0G9nLcv9Hk5HJ1EK9mVu7apib64Gl9tN42ugKclqmXsYtX9DROtqWIyC+ajCEDTiGLA=",
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "花花",
@@ -214,7 +213,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOb1uAWbkRHp7hdxprG9un3+SLV183v12klao6oAAgFfVcL8D0quLA1d+RRyMN4vnPZetdOm08F3TlgCOxqWIyX+afCECO7aPaKnovDOCeMkxglOhlDv9axDFC5RYVbAYd+",
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "播客",
@@ -226,7 +225,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOX1voDIQhH8epBwpmIsuS1pDrb3t3j0G9nLcv9Hk5HJ1EK9mVu7apib64Gl9tN42ugKclqmXsYtX9DROtqWIyC+ajCEDTiHrA=",
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "爱影",
@@ -238,7 +237,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOb1uAWbkRHp7hdxprGv+T3+22cnI+1lW1gL8i1UUQeJQBMqCc2+bF/Yq4Ul9lvoCLVO51Skm9i8zNvRa47T5uA+erCUw==",
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "猫猫",
@@ -250,7 +249,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOb1uAWbkRHp7hdxprG9un3+TrS2dv+1y8lL4ryEFdPZxse8yYwoKFyJOlU2M9/q2OcL8NQxT0kuzomBOA4Uobe87udCDvyXaLcmpT5AzDxpSkECnVSqNy7UE+qFZ1UBoc16Q==",
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "奥特",
@@ -261,7 +260,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "荐片",
@@ -273,7 +272,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "新6V",
@@ -285,7 +284,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "https://www.xb6v.com/",
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "咕咕",
@@ -297,7 +296,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZxc/l0mxkeoroQVYOelMAvX1kuYptSLB36YxEjVawS9p37Cgo",
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "Dm84",
@@ -308,7 +307,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "Anime1",
@@ -319,7 +318,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "88",
@@ -330,7 +329,7 @@
       "searchable": 0,
       "changeable": 0,
       "style": { "type": "list" },
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "超全",
@@ -341,7 +340,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "style": { "type": "list" },
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "看球",
@@ -352,7 +351,7 @@
       "searchable": 0,
       "changeable": 0,
       "style": { "type": "list" },
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "MTV",
@@ -364,7 +363,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": { "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt" },
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "有声小说",
@@ -375,7 +374,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "Aid",
@@ -386,7 +385,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "style": { "type": "rect", "ratio": 3.8 },
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "虎牙js",
@@ -400,7 +399,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "斗鱼js",
@@ -414,7 +413,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "push_agent",
@@ -424,7 +423,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "ext": { "Cloud-drive": "tvfan/Cloud-drive.txt" },
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "Bili",
@@ -436,7 +435,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": { "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt" },
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "Biliych",
@@ -448,7 +447,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": { "json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt" },
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "dr_兔小贝",
@@ -460,7 +459,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "少儿教育",
@@ -472,7 +471,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": { "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt" },
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "小学课堂",
@@ -484,7 +483,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": { "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt" },
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "初中课堂",
@@ -496,7 +495,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": { "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt" },
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     },
     {
       "key": "高中教育",
@@ -508,7 +507,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": { "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt" },
-      "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b"
     }
   ],
   "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",

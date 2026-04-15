@@ -539,7 +539,7 @@
     },
     {
       "key": "fan",
-      "name": "导航 www.饭太硬.com",
+      "name": "随便看看就好",
       "type": 3,
       "api": "csp_XPathGuard",
       "searchable": 1,

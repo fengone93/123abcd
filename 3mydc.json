@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "点我切源",
-      "name": "2",
+      "name": "3",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -315,13 +315,6 @@
       "playerType": 2,
       "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fatcat070926.jar"
     },
-    {
-      "key": "csp_SP360",
-      "name": "📺┃360┃官源",
-      "type": 3,
-      "api": "csp_SP360",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fatcat070926.jar"
-    }
   ],
   "rules": [
     {

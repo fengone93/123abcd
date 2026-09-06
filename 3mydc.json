@@ -1,17 +1,16 @@
 {
-    "spider": "",
-    "wallpaper": "",
+    "spider": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar",
+    "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
     "sites": [
         {
             "key": "点我切源",
-            "name": "1",
+            "name": "<9.07更新> 修复海绵 奥特",
             "type": 3,
             "api": "csp_DouDouGuard",
             "indexs": 1,
             "searchable": 0,
             "quickSearch": 0,
-            "changeable": 0,
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "changeable": 0
         },
         {
             "key": "光影",
@@ -21,8 +20,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw==",
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw=="
         },
         {
             "key": "原创",
@@ -33,8 +31,7 @@
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "changeable": 1
         },
         {
             "key": "厂长",
@@ -45,8 +42,7 @@
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "changeable": 1
         },
         {
             "key": "海绵",
@@ -57,8 +53,7 @@
             "playerType": "2",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "changeable": 1
         },
         {
             "key": "立播",
@@ -72,8 +67,7 @@
             "ext": {
                 "Cloud-drive": "tvfan/Cloud-drive.txt",
                 "siteUrl": "https://www.libvio.pw/"
-            },
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            }
         },
         {
             "key": "瓜子",
@@ -84,8 +78,7 @@
             "playerType": "2",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "changeable": 1
         },
         {
             "key": "比特",
@@ -95,8 +88,7 @@
             "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "changeable": 1
         },
         {
             "key": "糯米",
@@ -106,8 +98,7 @@
             "timeout": 15,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "changeable": 1
         },
         {
             "key": "文采",
@@ -118,8 +109,7 @@
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "changeable": 1
         },
         {
             "key": "奶酪",
@@ -129,8 +119,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "rfOIzPkSUkANv6AT2prC8en3+TzKx9TnlT8vaY37HhtYfAQe6C5xqrVuJPhQwYV6r3eRdMBGm3Qm6Th+BushR86B6KqJGXHsHazHw7alBG/7zUxkN1tK/NypRxnpBNoeUtpw4jcCGhytI75yO4g4zG6SOPA0RSwhksM0IF2friAkrHCWoW3v+0mdw6sjz4t4XB1Df7yL/R5cfaA/5LQYq3I8OkvMrJMU9Q1P7JXwx7NSF2zTyH/ANVmZ4u5m567DW1KVG7OuQjXPjZiOXTYk0+wjpfBRTf19yIq6q/C76k2Fs80joAMPw0ueDR+QHxtuDcTom2rmHkI1Fonkzi6BotbpUcbSi4PiIgmfdbvVwhG6Z+i4nvt+IYa48l5aLA7PLgDiERpuOs31aHaXlgFswT87XyTb8QaF4CuzKWJuXptwNTjvXAS9KHdxH49Ay+hfBAB2bCvUf4CMoldF2wZUv0mI2qY966erFpOFg+FOc7t88EUH8j8ACXQtHJiKC9RQ+SaLIF0=",
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "ext": "rfOIzPkSUkANv6AT2prC8en3+TzKx9TnlT8vaY37HhtYfAQe6C5xqrVuJPhQwYV6r3eRdMBGm3Qm6Th+BushR86B6KqJGXHsHazHw7alBG/7zUxkN1tK/NypRxnpBNoeUtpw4jcCGhytI75yO4g4zG6SOPA0RSwhksM0IF2friAkrHCWoW3v+0mdw6sjz4t4XB1Df7yL/R5cfaA/5LQYq3I8OkvMrJMU9Q1P7JXwx7NSF2zTyH/ANVmZ4u5m567DW1KVG7OuQjXPjZiOXTYk0+wjpfBRTf19yIq6q/C76k2Fs80joAMPw0ueDR+QHxtuDcTom2rmHkI1Fonkzi6BotbpUcbSi4PiIgmfdbvVwhG6Z+i4nvt+IYa48l5aLA7PLgDiERpuOs31aHaXlgFswT87XyTb8QaF4CuzKWJuXptwNTjvXAS9KHdxH49Ay+hfBAB2bCvUf4CMoldF2wZUv0mI2qY966erFpOFg+FOc7t88EUH8j8ACXQtHJiKC9RQ+SaLIF0="
         },
         {
             "key": "热播",
@@ -142,8 +131,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "uqGL1bNENExT7/hGxpSE5qU=",
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "ext": "uqGL1bNENExT7/hGxpSE5qU="
         },
         {
             "key": "视界",
@@ -154,8 +142,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "rfOX1voDIQhH8epBwtCFsuby/mmdmIu8kGlnJc+7VkMRLQ1K+jMy+KN1MKQe0MZ6tmGSO5oFzD8/vWwiSqEpFczDqLrdGT3iH6fZmryrFzKijwYkJUMctdztE0O4CsgYZdBu8XhZSwuhSqqllQz4AZMa1l0sT+1NrbhNIxHkrY0upiYSTLNqEaledgZikMCviOXWr3cPBP4COOeoGUyJSJrrybmUppnWGeDAOHhHOVUSXjwSb+QQvcJIT2lmrf1Bk68myGs7qOqc19tD/rnzf2WOb2MzJZqtURBmUFgaW6ea2dL8OPSpSeVAvaGCAnqwuUNGE9hHpK8jfOs0bLJRdkFLnijAn5Q+ofVM5hgGb8c=",
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "ext": "rfOX1voDIQhH8epBwtCFsuby/mmdmIu8kGlnJc+7VkMRLQ1K+jMy+KN1MKQe0MZ6tmGSO5oFzD8/vWwiSqEpFczDqLrdGT3iH6fZmryrFzKijwYkJUMctdztE0O4CsgYZdBu8XhZSwuhSqqllQz4AZMa1l0sT+1NrbhNIxHkrY0upiYSTLNqEaledgZikMCviOXWr3cPBP4COOeoGUyJSJrrybmUppnWGeDAOHhHOVUSXjwSb+QQvcJIT2lmrf1Bk68myGs7qOqc19tD/rnzf2WOb2MzJZqtURBmUFgaW6ea2dL8OPSpSeVAvaGCAnqwuUNGE9hHpK8jfOs0bLJRdkFLnijAn5Q+ofVM5hgGb8c="
         },
         {
             "key": "播客",
@@ -166,8 +153,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "rfOb1uAWbkRHp7hdxprG9un3+SPC3Nbv1SI/b5LtAUhbYkFU/DFvsLBvd/oV3cA4uGiCZNFRz3ln6nh5Q+AgDZiM5KrCAiO7S7SVzv31EG78jVB4JEMNrMPzTgWqRZdMTdR1smBWWwru",
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "ext": "rfOb1uAWbkRHp7hdxprG9un3+SPC3Nbv1SI/b5LtAUhbYkFU/DFvsLBvd/oV3cA4uGiCZNFRz3ln6nh5Q+AgDZiM5KrCAiO7S7SVzv31EG78jVB4JEMNrMPzTgWqRZdMTdR1smBWWwru"
         },
         {
             "key": "剧圈",
@@ -178,8 +164,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p",
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "ext": "rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p"
         },
         {
             "key": "荐片",
@@ -190,8 +175,7 @@
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 0,
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "changeable": 0
         },
         {
             "key": "奥特",
@@ -201,8 +185,7 @@
             "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "changeable": 1
         },
         {
             "key": "新6V",
@@ -213,8 +196,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://www.xb6v.com/",
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "ext": "https://www.xb6v.com/"
         },
         {
             "key": "咕咕",
@@ -225,8 +207,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZxc/l0mxkeoroQVYOelMAvX1kuYptSLB36YxEjVawS9p37Cgo",
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZxc/l0mxkeoroQVYOelMAvX1kuYptSLB36YxEjVawS9p37Cgo"
         },
         {
             "key": "Dm84",
@@ -236,8 +217,7 @@
             "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fanspider070926.jar"
+            "changeable": 1
         }
     ],
     "rules": [

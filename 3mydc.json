@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "点我切源",
-      "name": "1",
+      "name": "<9.07更新> 修复海绵 奥特",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -219,70 +219,6 @@
       "quickSearch": 1,
       "changeable": 1
     },
-    // ---- 以下为第二个配置中的站点（重复key已重命名） ----
-    {
-      "key": "csp_FeiMaoUC",
-      "name": "⚡┃闪电┃优汐",
-      "type": 3,
-      "api": "csp_Duopan",
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "http://shandian.blog/",
-          "http://sd.sduc.site/"
-        ],
-        "threadinfo": {
-          "chunksize": 512,
-          "threads": 16
-        },
-        "url_key": "FeiMaoUC"
-      },
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fatcat070926.jar"
-    },
-    {
-      "key": "csp_Duopan",
-      "name": "🖍︎┃蜡笔┃影视",
-      "type": 3,
-      "api": "csp_Duopan",
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "http://tvpanpan.site",
-          "http://feimo.fun",
-          "http://xiaocgege.shop",
-          "http://www.xiaocgege.shop",
-          "https://www.xiaocge.fun"
-        ],
-        "threadinfo": {
-          "chunksize": 512,
-          "threads": 16
-        },
-        "url_key": "Duopan2"
-      },
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fatcat070926.jar"
-    },
-    {
-      "key": "csp_Netfixtv",
-      "name": "💌┃️至臻┃影视",
-      "type": 3,
-      "api": "csp_Duopan",
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "https://www.zhizhen8.click",
-          "https://pan.mihdr.top",
-          "https://www.zhizhen1.top",
-          "https://www.mihdr.top",
-          "https://www.miqk.cc"
-        ],
-        "url_key": "Netfixtv2",
-        "threadinfo": {
-          "chunksize": 512,
-          "threads": 16
-        }
-      },
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fatcat070926.jar"
-    },
     {
       "key": "潮流",
       "name": "🏜┃潮流┃APP",
@@ -321,14 +257,6 @@
       "type": 3,
       "api": "csp_AppQi",
       "ext": "https://lanyingjisu.oss-cn-wuhan-lr.aliyuncs.com/lyjszx.txt|oW5UxZ5kWVr1DI69",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fatcat070926.jar"
-    },
-    {
-      "key": "再来",
-      "name": "✌️┃再来┃APP",
-      "type": 3,
-      "api": "csp_AppGet",
-      "ext": "https://www.douy32mf.top|1234567887654321",
       "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fatcat070926.jar"
     },
     {
@@ -371,15 +299,6 @@
       "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fatcat070926.jar"
     },
     {
-      "key": "荐片2",
-      "name": "🎬┃荐片2┃影视",
-      "api": "csp_Jianpian",
-      "type": 3,
-      "playerType": "2",
-      "ext": "https://api.ztcgi.com",
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fatcat070926.jar"
-    },
-    {
       "key": "csp_SaoHuo",
       "name": "🔥┃火火┃影视",
       "type": 3,
@@ -394,18 +313,6 @@
       "type": 3,
       "api": "csp_Gz360",
       "playerType": 2,
-      "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fatcat070926.jar"
-    },
-    {
-      "key": "厂长2",
-      "name": "🏭┃厂长2┃影视",
-      "type": 3,
-      "playerType": "2",
-      "api": "csp_Czsapp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://cz01.vip",
       "jar": "https://github.com/fengone93/123abc/raw/refs/heads/main/jar/fatcat070926.jar"
     },
     {
@@ -430,7 +337,6 @@
         "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
       ]
     },
-    // ---- 以下为第二个配置中的规则 ----
     {
       "name": "♻️量非",
       "hosts": [
@@ -591,7 +497,6 @@
     "img1.wsyzy.org=fan.cloudflare.182682.xyz",
     "fiizvfck.top=fan.cloudflare.182682.xyz",
     "images.67c6c7a.com=fan.cloudflare.182682.xyz",
-    // ---- 以下为第二个配置中的hosts ----
     "hlsztemgsplive.miguvideo.com=hlsztemgsplive.miguvideo.com.b.cdn.chinamobile.com",
     "push-rtmp-hs-spe-f5.douyincdn.com=source-fcdn-spe-push.s.bytefcdn.com",
     "cdn9.163189.xyz=gcore.jsdelivr.net",
@@ -642,7 +547,6 @@
       "timeout": 10,
       "ua": "okHttp/Mod-1.5.0.0"
     },
-    // ---- 以下为第二个配置中的直播源（重复已改名） ----
     {
       "name": "Kimentanm_2",
       "type": 0,

@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "点我切源",
-      "name": "2",
+      "name": "3",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -17,7 +17,7 @@
       "name": "🥭 芒果 [js]",
       "type": 3,
       "api": "./js/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/fengone93/123abc/refs/heads/main/js/%E7%99%BE%E5%BF%99%E6%97%A0%E6%9E%9C.js",
+      "ext": "https://raw.githubusercontent.com/fengone93/123abc/refs/heads/main/js/olevodtesting.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1

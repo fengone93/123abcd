@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "点我切源",
-      "name": "3",
+      "name": "1",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -17,7 +17,7 @@
   "name": "🇲🇾 欧乐影院 [DRPY2]",
   "type": 3,
   "api": "./js/lib/drpy2.min.js",
-  "ext": "https://raw.githubusercontent.com/fengone93/123abc/refs/heads/main/js/olelive.js",
+  "ext": "http://williamc.tplinkdns.com/iptv/js/olevod.js",
   "searchable": 1,
   "quickSearch": 1,
   "filterable": 0
